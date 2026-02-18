@@ -18,7 +18,7 @@ Unicode assigned all of them the same script block, [Phonecian](https://en.wikip
 
 | Input | Letter | Unicode | Code Point | Notes |
 |-------|--------|---------|------------|-------|
-| `a` | ALF | 𐤀 | U+10900 | Glottal stop, mapped to `a` since ALF is `a`'s ancestor |
+| `'` | ALF | 𐤀 | U+10900 | Often denoted ʾ in academic literature, mapped to `'` since `'` is commonly used to represent glottal stops. |
 | `b` | BET | 𐤁 | U+10901 | |
 | `g` | GAML | 𐤂 | U+10902 | |
 | `d` | DELT | 𐤃 | U+10903 | |
@@ -33,12 +33,12 @@ Unicode assigned all of them the same script block, [Phonecian](https://en.wikip
 | `m` | MEM | 𐤌 | U+1090C | |
 | `n` | NUN | 𐤍 | U+1090D | |
 | `s'` | SEMK | 𐤎 | U+1090E | Often denoted ś in academic literature |
-| `o` | AIN | 𐤏 | U+1090F | Voiced pharyngeal approximant, mapped to `o`, since AIN is `o`'s ancestor |
+| `.'` | AIN | 𐤏 | U+1090F | Often denoted ʿ (n.b: this is the reverse of ʾ) in academic literature, mapped somewhat arbitrarily to `.'` since it's related to `ʾ`, and appears less frequently than it. |
 | `p` | PE | 𐤐 | U+10910 | |
 | `.s` | SADE | 𐤑 | U+10911 | |
 | `q` | QOF | 𐤒 | U+10912 | |
 | `r` | ROSH | 𐤓 | U+10913 | |
-| `sh` | SHIN | 𐤔 | U+10914 | Often denoted ṣ in academic literature |
+| `sh` | SHIN | 𐤔 | U+10914 | Often denoted š in academic literature |
 | `t` | TAW | 𐤕 | U+10915 | |
 | `\|` | Word separator | 𐤟 | U+1091F | |
 
@@ -46,5 +46,6 @@ Unicode assigned all of them the same script block, [Phonecian](https://en.wikip
 
 | Input | Output |
 |-------|--------|
+| `''` | `'` |
 | `..` | `.` |
 | `\|\|` | `\|` |
