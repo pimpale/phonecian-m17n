@@ -1,0 +1,35 @@
+(input-method phn Phonecian)
+(description (_ "Abjad IME for Phoenician script.
+Mapping based on ancestral phonetic values of each letter.
+
+Consonants:
+  a -> 𐤀 (ALF)      b -> 𐤁 (BET)      g -> 𐤂 (GAML)
+  d -> 𐤃 (DELT)     h -> 𐤄 (HE)       w -> 𐤅 (WAU)
+  z -> 𐤆 (ZAYIN)   .h -> 𐤇 (HET)     .t -> 𐤈 (TET)
+  y -> 𐤉 (YOD)      k -> 𐤊 (KAF)      l -> 𐤋 (LAMD)
+  m -> 𐤌 (MEM)      n -> 𐤍 (NUN)     s' -> 𐤎 (SEMK)
+  o -> 𐤏 (AIN)      p -> 𐤐 (PE)      .s -> 𐤑 (SADE)
+  q -> 𐤒 (QOF)      r -> 𐤓 (ROSH)    sh -> 𐤔 (SHIN)
+  t -> 𐤕 (TAW)
+
+Escapes: .. -> .   || -> |
+Word separator: | -> 𐤟"))
+(title "𐤀𐤁𐤂")
+(map
+  (default
+           ("a" "𐤀") ("b" "𐤁") ("g" "𐤂") ("d" "𐤃")
+           ("h" "𐤄") ("w" "𐤅") ("z" "𐤆")
+           (".h" "𐤇") (".t" "𐤈")
+           ("y" "𐤉") ("k" "𐤊") ("l" "𐤋")
+           ("m" "𐤌") ("n" "𐤍")
+           ("s'" "𐤎")
+           ("o" "𐤏") ("p" "𐤐")
+           (".s" "𐤑")
+           ("q" "𐤒") ("r" "𐤓")
+           ("sh" "𐤔")
+           ("t" "𐤕")
+           ("|" "𐤟")
+           (".." ".") ("||" "|")))
+
+(state
+  (init (default)))
