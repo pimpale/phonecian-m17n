@@ -1,35 +1,42 @@
 (input-method phn Phonecian)
 (description (_ "Abjad IME for Phoenician script.
-Mapping based on ancestral phonetic values of each letter.
+Consonant mapping based on ancestral phonetic values of each letter.
 
-Consonants:
+Consonants (transliteration):
   '  -> 𐤀 (ALF)      b -> 𐤁 (BET)      g -> 𐤂 (GAML)
   d  -> 𐤃 (DELT)     h -> 𐤄 (HE)       w -> 𐤅 (WAU)
-  z  -> 𐤆 (ZAYIN)   .h -> 𐤇 (HET)     .t -> 𐤈 (TET)
+  z  -> 𐤆 (ZAYIN)    H -> 𐤇 (HET)     T -> 𐤈 (TET)
   y  -> 𐤉 (YOD)      k -> 𐤊 (KAF)      l -> 𐤋 (LAMD)
-  m  -> 𐤌 (MEM)      n -> 𐤍 (NUN)     s' -> 𐤎 (SEMK)
-  .' -> 𐤏 (AIN)      p -> 𐤐 (PE)      .s -> 𐤑 (SADE)
-  q  -> 𐤒 (QOF)      r -> 𐤓 (ROSH)    sh -> 𐤔 (SHIN)
+  m  -> 𐤌 (MEM)      n -> 𐤍 (NUN)     s -> 𐤎 (SEMK)
+  A -> 𐤏 (AIN)       p -> 𐤐 (PE)      S -> 𐤑 (SADE)
+  q  -> 𐤒 (QOF)     r -> 𐤓 (ROSH)    j -> 𐤔 (SHIN)
   t  -> 𐤕 (TAW)
 
-Escapes: .. -> .   || -> |   '' -> '
+Numbers (arbitrary):
+  a -> 𐤖
+  i -> 𐤗 
+  u -> 𐤘 
+  o -> 𐤙
+ 
+Escapes: \| -> | \' -> '
 Word separator: | -> 𐤟"))
 (title "𐤀𐤁𐤂")
 (map
   (default
            ("'" "𐤀") ("b" "𐤁") ("g" "𐤂") ("d" "𐤃")
            ("h" "𐤄") ("w" "𐤅") ("z" "𐤆")
-           (".h" "𐤇") (".t" "𐤈")
+           ("H" "𐤇") ("T" "𐤈")
            ("y" "𐤉") ("k" "𐤊") ("l" "𐤋")
            ("m" "𐤌") ("n" "𐤍")
-           ("s'" "𐤎")
-           (".'" "𐤏") ("p" "𐤐")
-           (".s" "𐤑")
+           ("s" "𐤎")
+           ("A" "𐤏") ("p" "𐤐")
+           ("S" "𐤑")
            ("q" "𐤒") ("r" "𐤓")
-           ("sh" "𐤔")
+           ("j" "𐤔")
            ("t" "𐤕")
            ("|" "𐤟")
-           (".." ".") ("||" "|") ("''" "'")))
+           ("a" "𐤖") ("i" "𐤗") ("u" "𐤘") ("o" "𐤙") 
+           ("\|" "|") ("\'" "'") ("\\" "\")))
 
 (state
   (init (default)))
