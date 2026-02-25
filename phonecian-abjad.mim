@@ -13,10 +13,10 @@ Consonants (transliteration):
   t  -> 𐤕 (TAW)
 
 Numbers (arbitrary):
-  a -> 𐤖
-  i -> 𐤗 
-  u -> 𐤘 
-  o -> 𐤙
+  a -> 𐤖 (ONE)
+  i -> 𐤗 (TEN)
+  u -> 𐤘 (TWENTY)
+  o -> 𐤙 (ONE HUNDRED)
  
 Escapes: \| -> | \' -> '
 Word separator: | -> 𐤟"))
@@ -36,7 +36,7 @@ Word separator: | -> 𐤟"))
            ("t" "𐤕")
            ("|" "𐤟")
            ("a" "𐤖") ("i" "𐤗") ("u" "𐤘") ("o" "𐤙") 
-           ("\|" "|") ("\'" "'") ("\\" "\")))
+           ("\\|" "|") ("\\'" "'") ("\\\\" "\\")))
 
 (state
   (init (default)))

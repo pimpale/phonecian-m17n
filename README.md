@@ -56,5 +56,5 @@ Unicode assigned all of them the same script block, [Phonecian](https://en.wikip
 | Input | Output |
 |-------|--------|
 | `\'` | `'` |
-| `\|` | `\|` |
+| `\\|` | `\|` |
 | `\\` | `\` |
