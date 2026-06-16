@@ -25,7 +25,7 @@ Unicode assigned all of them the same script block, [Phonecian](https://en.wikip
 | `h` | HE | 𐤄 | U+10904 | |
 | `w` | WAU | 𐤅 | U+10905 | |
 | `z` | ZAYIN | 𐤆 | U+10906 | |
-| `H` | HET | 𐤇 | U+10907 | Often denoted ḥ in academic literature |
+| `x` | HET | 𐤇 | U+10907 | Often denoted ḥ in academic literature |
 | `T` | TET | 𐤈 | U+10908 | Often denoted ṭ in academic literature |
 | `y` | YOD | 𐤉 | U+10909 | |
 | `k` | KAF | 𐤊 | U+1090A | |

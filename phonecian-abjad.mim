@@ -5,7 +5,7 @@ Consonant mapping based on ancestral phonetic values of each letter.
 Consonants (transliteration):
   '  -> 𐤀 (ALF)      b -> 𐤁 (BET)      g -> 𐤂 (GAML)
   d  -> 𐤃 (DELT)     h -> 𐤄 (HE)       w -> 𐤅 (WAU)
-  z  -> 𐤆 (ZAYIN)    H -> 𐤇 (HET)     T -> 𐤈 (TET)
+  z  -> 𐤆 (ZAYIN)    x -> 𐤇 (HET)     T -> 𐤈 (TET)
   y  -> 𐤉 (YOD)      k -> 𐤊 (KAF)      l -> 𐤋 (LAMD)
   m  -> 𐤌 (MEM)      n -> 𐤍 (NUN)     s -> 𐤎 (SEMK)
   A -> 𐤏 (AIN)       p -> 𐤐 (PE)      S -> 𐤑 (SADE)
@@ -25,7 +25,7 @@ Word separator: | -> 𐤟"))
   (default
            ("'" "𐤀") ("b" "𐤁") ("g" "𐤂") ("d" "𐤃")
            ("h" "𐤄") ("w" "𐤅") ("z" "𐤆")
-           ("H" "𐤇") ("T" "𐤈")
+           ("x" "𐤇") ("T" "𐤈")
            ("y" "𐤉") ("k" "𐤊") ("l" "𐤋")
            ("m" "𐤌") ("n" "𐤍")
            ("s" "𐤎")
